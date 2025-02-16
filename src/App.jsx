@@ -7,7 +7,7 @@ import Contacts from "./pages/Contacts";
 
 export const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/ECH">
       <div>
         <Navbar />
         <Routes>
