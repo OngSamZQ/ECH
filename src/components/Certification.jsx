@@ -39,7 +39,7 @@ const Certification = () => {
           <ul className="list-disc pl-5 text-gray-800">
             <li>OHSAS 18001: 2007</li>
             <li>bizSAFE Level Star</li>
-            <li>ME12 Plumbing & Sanitary Works L4</li>
+            <li>ME12 Plumbing & Sanitary Works L5</li>
             <li>ME06 Fire Prevention & Protection <br />Systems L1</li>
 
           </ul>
