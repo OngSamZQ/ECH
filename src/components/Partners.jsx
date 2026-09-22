@@ -8,7 +8,7 @@ const Partners = () => {
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-12">
             {partners.map((client, index) => (
               <div key={index} className="flex justify-center items-center">
-                <img
+                <img loading="lazy" decoding="async"
                   src={client.logo}
                   alt={client.alt}
                   className="max-w-full h-auto object-contain"

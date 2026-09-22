@@ -1,7 +1,7 @@
 export const navItems = [
   { label: "Home", href: "/" },
   { label: "Services", href: "/#services" },
-  { label: "Projects", href: "/project" }, 
+  { label: "Projects", href: "/project" },
   { label: "Contact", href: "/contacts" },
 ];
 
@@ -85,6 +85,7 @@ export const PlumbingList = [
 
 export const MinorSewer = [
   { project: "Bukit Merah C51 (869 units)", scope: "Minor Sewer works", status: "Ongoing" },
+  { project: "Yishun N9C3 (656 units)", scope: "Minor Sewer works", status: "Ongoing" },
   { project: "Project L – Bukit Merah C57 (820 units)", scope: "Minor Sewer works", status: "Ongoing" },
   { project: "Yishun N4C23", scope: "Minor Sewer works", status: "Ongoing" },
   { project: "Tengah C1", scope: "Minor Sewer works", status: "Ongoing" },
@@ -100,26 +101,25 @@ import Debanho from "../assets/Partners_Debenho.png";
 import Kienta from "../assets/Partners_Kienta.png";
 import CCDC from "../assets/Partners_CCDCLogo.png";
 import Teambuild from "../assets/Partners_teambuild-logo.png";
-import ChuanLim from "../assets/Partners_ChuanLim_logo.webp";
 import HC from "../assets/Partners_logo-HC-2.png";
 import JiaYi from "../assets/Partners_JiaYi_Logo.avif";
 import Kaykim from "../assets/Partners_Kay-Lim-Holdings-Small.jpg";
 import KenPal from "../assets/Partners_-KenPal_Logo-header.jpg";
-import KwanYong from "../assets/Partners_KwanYong.png"; 
-import LBD from "../assets/Partners_lbd-logo.png"; 
-import NHK from "../assets/Partners_logo-nkh.png"; 
-import Qingjian from "../assets/Partners_Qingjian.png"; 
-import SoonThong from "../assets/Partners_SoonThong.png"; 
-import Welltech from "../assets/Partners_Welltech.jpg"; 
-import WingTuck from "../assets/Partners_Wing-Tuck-Logo.jpg"; 
+import KwanYong from "../assets/Partners_KwanYong.png";
+import LBD from "../assets/Partners_lbd-logo.png";
+import NHK from "../assets/Partners_logo-nkh.png";
+import Qingjian from "../assets/Partners_Qingjian.png";
+import SoonThong from "../assets/Partners_SoonThong.png";
+import Welltech from "../assets/Partners_Welltech.jpg";
 
-import Harary from "../assets/Partners_Harary.jpg"; 
-import Vicplas from "../assets/Partners_Vicplas.jpg"; 
-import Snow from "../assets/Partners_Snow.jpg"; 
-import Sika from "../assets/Partners_Sika.jpg"; 
-import RFT from "../assets/Partners_RFT.jpg"; 
-import Joho from "../assets/Partners_Joho.jpg"; 
-import Hosin from "../assets/Partners_Hosin.jpg"; 
+import Vicplas from "../assets/Partners_Vicplas.jpg";
+import Snow from "../assets/Partners_Snow.jpg";
+import Sika from "../assets/Partners_Sika.jpg";
+import RFT from "../assets/Partners_RFT.jpg";
+import Joho from "../assets/Partners_Joho.jpg";
+import Hosin from "../assets/Partners_Hosin.jpg";
+import Hitek from "../assets/Partners_Hi-tek.jpg";
+import Hafary from "../assets/Partners_hafary.jpg";
 
 
 export const partners = [
@@ -137,10 +137,12 @@ export const partners = [
   { logo: Qingjian, alt: "Qingjian International (South Pacific) Group" },
   { logo: SoonThong, alt: "Soon Thong Construction Pte Ltd " },
   { logo: Welltech, alt: "Welltech Construction Pte Ltd " },
+  { logo: Hitek, alt: "Hi-Tek Construction Pte Ltd" },
+  { logo: Hafary, alt: "HAFARY HOLDINGS LTD" },
 
-  { logo: "", alt: "Hi-Tek Construction Pte Ltd" },
-  { logo: "", alt: "HTC Construction Pte Ltd" },
-  { logo: "", alt: "Mintat Construction Pte Ltd" },
+
+  // { logo: "", alt: "HTC Construction Pte Ltd" },
+  // { logo: "", alt: "Mintat Construction Pte Ltd" },
 
   { logo: Vicplas, alt: "Vicplas" },
   { logo: Snow, alt: "Snow" },

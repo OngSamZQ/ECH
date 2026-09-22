@@ -39,7 +39,7 @@ const Certification = () => {
           <ul className="list-disc pl-5 text-gray-800">
             <li>OHSAS 18001: 2007</li>
             <li>bizSAFE Level Star</li>
-            <li>ME12 Plumbing & Sanitary Works L4</li>
+            <li>ME12 Plumbing & Sanitary Works L5</li>
             <li>ME06 Fire Prevention & Protection <br />Systems L1</li>
 
           </ul>
@@ -49,10 +49,10 @@ const Certification = () => {
       {/* Certificate Logos Section */}
       <div className="mt-8 w-full max-w-6xl">
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 justify-items-center">
-          <img src={certLogo1} alt="Certification 1" className="w-20 h-20 object-contain" />
-          <img src={certLogo2} alt="Certification 2" className="w-20 h-20 object-contain" />
-          <img src={certLogo3} alt="Certification 3" className="w-20 h-20 object-contain" />
-          <img src={certLogo4} alt="Certification 4" className="w-20 h-20 object-contain" />
+          <img loading="lazy" decoding="async" src={certLogo1} alt="ISO 9001" className="w-20 h-20 object-contain" />
+          <img loading="lazy" decoding="async" src={certLogo2} alt="ISO 14001" className="w-20 h-20 object-contain" />
+          <img loading="lazy" decoding="async" src={certLogo3} alt="OHSAS 18001" className="w-20 h-20 object-contain" />
+          <img loading="lazy" decoding="async" src={certLogo4} alt="bizSAFE Star" className="w-20 h-20 object-contain" />
         </div>
       </div>
     </div>

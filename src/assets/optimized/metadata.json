@@ -1,0 +1,154 @@
+{
+  "Carousel_1": [
+    {
+      "width": 640,
+      "height": 480,
+      "file": "src/assets/optimized/Carousel_1-640.webp",
+      "bytes": 54534
+    },
+    {
+      "width": 1280,
+      "height": 960,
+      "file": "src/assets/optimized/Carousel_1-1280.webp",
+      "bytes": 178650
+    },
+    {
+      "width": 1920,
+      "height": 1440,
+      "file": "src/assets/optimized/Carousel_1-1920.webp",
+      "bytes": 346374
+    }
+  ],
+  "Carousel_2": [
+    {
+      "width": 640,
+      "height": 480,
+      "file": "src/assets/optimized/Carousel_2-640.webp",
+      "bytes": 57158
+    },
+    {
+      "width": 1280,
+      "height": 960,
+      "file": "src/assets/optimized/Carousel_2-1280.webp",
+      "bytes": 184078
+    },
+    {
+      "width": 1920,
+      "height": 1440,
+      "file": "src/assets/optimized/Carousel_2-1920.webp",
+      "bytes": 364288
+    }
+  ],
+  "Carousel_3": [
+    {
+      "width": 640,
+      "height": 480,
+      "file": "src/assets/optimized/Carousel_3-640.webp",
+      "bytes": 56548
+    },
+    {
+      "width": 1280,
+      "height": 960,
+      "file": "src/assets/optimized/Carousel_3-1280.webp",
+      "bytes": 179196
+    },
+    {
+      "width": 1920,
+      "height": 1440,
+      "file": "src/assets/optimized/Carousel_3-1920.webp",
+      "bytes": 353710
+    }
+  ],
+  "Carousel_4": [
+    {
+      "width": 640,
+      "height": 480,
+      "file": "src/assets/optimized/Carousel_4-640.webp",
+      "bytes": 62396
+    },
+    {
+      "width": 1280,
+      "height": 960,
+      "file": "src/assets/optimized/Carousel_4-1280.webp",
+      "bytes": 198662
+    },
+    {
+      "width": 1920,
+      "height": 1440,
+      "file": "src/assets/optimized/Carousel_4-1920.webp",
+      "bytes": 385054
+    }
+  ],
+  "Construction": [
+    {
+      "width": 480,
+      "height": 360,
+      "file": "src/assets/optimized/Construction-480.webp",
+      "bytes": 40444
+    },
+    {
+      "width": 960,
+      "height": 720,
+      "file": "src/assets/optimized/Construction-960.webp",
+      "bytes": 165078
+    }
+  ],
+  "Tiling": [
+    {
+      "width": 480,
+      "height": 384,
+      "file": "src/assets/optimized/Tiling-480.webp",
+      "bytes": 12406
+    },
+    {
+      "width": 720,
+      "height": 576,
+      "file": "src/assets/optimized/Tiling-960.webp",
+      "bytes": 20998
+    }
+  ],
+  "plumbing": [
+    {
+      "width": 480,
+      "height": 360,
+      "file": "src/assets/optimized/plumbing-480.webp",
+      "bytes": 9852
+    },
+    {
+      "width": 960,
+      "height": 720,
+      "file": "src/assets/optimized/plumbing-960.webp",
+      "bytes": 25170
+    }
+  ],
+  "MinorSewer": [
+    {
+      "width": 480,
+      "height": 640,
+      "file": "src/assets/optimized/MinorSewer-480.webp",
+      "bytes": 83242
+    },
+    {
+      "width": 960,
+      "height": 1280,
+      "file": "src/assets/optimized/MinorSewer-960.webp",
+      "bytes": 294400
+    }
+  ],
+  "Image_HeroSection": [
+    {
+      "width": 407,
+      "height": 416,
+      "file": "src/assets/optimized/Image_HeroSection-480.webp",
+      "bytes": 29894
+    }
+  ],
+  "logo_ech": [
+    {
+      "width": 160,
+      "height": 162,
+      "file": "src/assets/optimized/logo_ech-160.webp",
+      "bytes": 8514
+    }
+  ]
+}

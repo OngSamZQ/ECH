@@ -2,42 +2,19 @@ const Services = () => {
   const services = [
     {
       title: "Main Contractor",
-      description: `
-        - CW01 General Building<br/>
-        - GB1 General Builder Class 1<br/>
-      `,
+      items: ["CW01 General Building","GB1 General Builder Class 1"],
     },
     {
       title: "Tiling",
-      description: `
-        - Full tiling works to dwelling units including<br/>
-        - Waterproofing to wet areas<br/>
-        - Floor screeding<br/>
-        - Wall and floor tiling
-      `,
+      items: ["Full tiling works to dwelling units including","Waterproofing to wet areas","Floor screeding","Wall and floor tiling"],
     },
     {
       title: "Plumbing & Sanitary",
-      description: `
-        - Underground plumbing & sanitary works<br/>
-        - Plumbing & Sanitary works to dwelling units<br/>
-        - Dry riser & Wet riser<br/>
-        - Gas<br/>
-        - Hosereel<br/>
-        - Rainwater downpipe<br/>
-        - Domestic and Fire pump works
-      `,
+      items: ["Underground plumbing & sanitary works","Plumbing & Sanitary works to dwelling units","Dry riser & Wet riser","Gas","Hosereel","Rainwater downpipe","Domestic and Fire pump works"],
     },
     {
       title: "Minor Sewer",
-      description: `
-        - ERSS submission<br/>
-        - Construction of caisson<br/>
-        - Construction of manholes<br/>
-        - Pipe jacking of sewer lines<br/>
-        - Rehabilitation of sewer lines<br/>
-        - CCTV of completed sewer lines
-      `,
+      items: ["ERSS submission","Construction of caisson","Construction of manholes","Pipe jacking of sewer lines","Rehabilitation of sewer lines","CCTV of completed sewer lines"],
     },
   ];
 
@@ -54,10 +31,9 @@ const Services = () => {
               <h3 className="text-2xl font-bold justify-center text-black mb-4">
                 {service.title}
               </h3>
-              <p
-                className="text-xl text-gray-800 leading-relaxed"
-                dangerouslySetInnerHTML={{ __html: service.description }}
-              ></p>
+              <ul className="list-disc pl-5 text-xl text-gray-800 leading-relaxed">
+                {service.items.map((item) => <li key={item}>{item}</li>)}
+              </ul>
             </div>
           ))}
         </div>

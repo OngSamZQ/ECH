@@ -10,5 +10,16 @@
 }
 
 html {
-  scroll-padding-top: 60px;
+  scroll-padding-top: calc(var(--nav-height, 93px) + 12px);
+}
+:focus-visible {
+  outline: 3px solid #a855f7;
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    transition: none !important;
+  }
 }
